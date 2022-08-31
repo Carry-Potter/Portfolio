@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.5eadd584.css",
+    "main.js": "/Portfolio/static/js/main.01d4906b.js",
+    "static/media/rrr1.png": "/Portfolio/static/media/rrr1.049904de48803c3a8250.png",
+    "static/media/project2.png": "/Portfolio/static/media/project2.33e7eeb07ac0556323dd.png",
+    "static/media/IvanJelic.pdf": "/Portfolio/static/media/IvanJelic.af4d6fc06dc0caebf490.pdf",
+    "static/media/cregaatine.png": "/Portfolio/static/media/cregaatine.d70b0eca4859746c9dc4.png",
+    "static/media/senka.png": "/Portfolio/static/media/senka.ca38e93054afbead945a.png",
+    "static/media/project1.png": "/Portfolio/static/media/project1.ecde43e301acdd2f5a4c.png",
+    "static/media/project3.jpg": "/Portfolio/static/media/project3.c004ad0b5b36467fcae2.jpg",
+    "static/media/postman.jpg": "/Portfolio/static/media/postman.d6faa064fbea1a5c8813.jpg",
+    "static/media/vega.png": "/Portfolio/static/media/vega.c5147e7c38a67123246d.png",
+    "index.html": "/Portfolio/index.html",
+    "main.5eadd584.css.map": "/Portfolio/static/css/main.5eadd584.css.map",
+    "main.01d4906b.js.map": "/Portfolio/static/js/main.01d4906b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5eadd584.css",
+    "static/js/main.01d4906b.js"
+  ]
+}
