@@ -18,7 +18,7 @@ const Contact = () => {
     <section id='contact'>
       
 {/*<h5 className='contact__margin'>Get In Touch</h5>*/}
-      <h2 className='about__text'>Konraktiraj me</h2>
+      <h2 className='about__text'>Kontaktiraj me</h2>
       
 
       <div className="container contact__container">
@@ -35,7 +35,7 @@ const Contact = () => {
           </article>
           <article className="contact__option">
             <AiOutlineFacebook />
-            <h4>Messemger</h4>
+            <h4>Messenger</h4>
             <h5>Ivan Jelic</h5>
             <a href="https://m.me/ivan.jelic.378" target="_blank"> Send a message </a>
           </article>

@@ -10,7 +10,7 @@ const Expirience = () => {
 
     
     <section id='experience'>
-      <h5>Koje veštine imam</h5>
+      
       <h2 className='about__text'>Moje iskustvo</h2>
       <div className="container experience__container">
         <div className="experience__frontend">

@@ -27,7 +27,7 @@ const Header = () => {
 
           <img src={ME} alt="me" className='mains' />
           <div className='maring__top'>
-          <h5 className="title_first">Zdravo,ja sam</h5>
+          <h5 className="title_first">Zdravo, ja sam</h5>
 
           <h1 className="title_second">Ivan Jelić</h1>
           <div class="contener centered "></div>
