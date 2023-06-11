@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5eadd584.css",
-    "main.js": "/Portfolio/static/js/main.cbf0ecc6.js",
+    "main.css": "/Portfolio/static/css/main.3268cae9.css",
+    "main.js": "/Portfolio/static/js/main.f6c19cbf.js",
     "static/media/rrr1.png": "/Portfolio/static/media/rrr1.049904de48803c3a8250.png",
-    "static/media/project2.png": "/Portfolio/static/media/project2.33e7eeb07ac0556323dd.png",
+    "static/media/Screenshot_5.png": "/Portfolio/static/media/Screenshot_5.c2d0ae6f3060e648b10c.png",
+    "static/media/Screenshot_6.png": "/Portfolio/static/media/Screenshot_6.143d100feca357526c5a.png",
     "static/media/cregaatine.png": "/Portfolio/static/media/cregaatine.d70b0eca4859746c9dc4.png",
+    "static/media/Screenshot_4.png": "/Portfolio/static/media/Screenshot_4.0fcb1819fa381ed2f920.png",
     "static/media/IVANJELIC.pdf": "/Portfolio/static/media/IVANJELIC.1ce88f1102705e928a06.pdf",
     "static/media/senka.png": "/Portfolio/static/media/senka.ca38e93054afbead945a.png",
-    "static/media/project1.png": "/Portfolio/static/media/project1.ecde43e301acdd2f5a4c.png",
     "static/media/project3.jpg": "/Portfolio/static/media/project3.c004ad0b5b36467fcae2.jpg",
-    "static/media/postman.jpg": "/Portfolio/static/media/postman.d6faa064fbea1a5c8813.jpg",
     "static/media/vega.png": "/Portfolio/static/media/vega.c5147e7c38a67123246d.png",
     "index.html": "/Portfolio/index.html",
-    "main.5eadd584.css.map": "/Portfolio/static/css/main.5eadd584.css.map",
-    "main.cbf0ecc6.js.map": "/Portfolio/static/js/main.cbf0ecc6.js.map"
+    "main.3268cae9.css.map": "/Portfolio/static/css/main.3268cae9.css.map",
+    "main.f6c19cbf.js.map": "/Portfolio/static/js/main.f6c19cbf.js.map"
   },
   "entrypoints": [
-    "static/css/main.5eadd584.css",
-    "static/js/main.cbf0ecc6.js"
+    "static/css/main.3268cae9.css",
+    "static/js/main.f6c19cbf.js"
   ]
 }
