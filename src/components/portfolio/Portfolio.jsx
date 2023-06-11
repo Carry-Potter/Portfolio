@@ -1,11 +1,11 @@
 import React from 'react'
 import './portfolio.css'
 
-import IMG1 from '../../assets/project1.png'
-import IMG2 from '../../assets/postman.jpg'
-import IMG3 from '../../assets/vega.png'
-import IMG4 from '../../assets/project3.jpg'
-import IMG5 from '../../assets/project2.png'
+import IMG1 from '../../assets/Screenshot_6.png'
+import IMG2 from '../../assets/Screenshot_5.png'
+import IMG3 from '../../assets/Screenshot_4.png'
+import IMG4 from '../../assets/vega.png'
+import IMG5 from '../../assets/project3.jpg'
 import IMG6 from '../../assets/cregaatine.png'
 
 const Portfolio = () => {
@@ -14,40 +14,40 @@ const Portfolio = () => {
     {
       id: 1,
       image: IMG1,
-      title: 'web development',
-      github: 'https://github.com/Carry-Potter/WebProjekat/tree/master/prodavnica',
-      
+      title: 'tesla clone',
+      github: 'https://github.com/Carry-Potter/tesla',
+      live:'https://carry-potter.github.io/tesla/'
     }, {
       id: 2,
       image: IMG2,
-      title: 'internet software architecture',
-      github: 'https://gitlab.com/mrrobot331/web-frontend-and-backend/-/tree/master/isa-project',
-      demo: 'https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+      title: 'Brabus-clone',
+      github: 'https://github.com/Carry-Potter/brabus.io',
+      live:'https://carry-potter.github.io/brabus.io/'
     }, {
       id: 3,
       image: IMG3,
-      title: 'vega time-sheet',
-      github: 'https://gitlab.com/mrrobot331/vega-it',
-      demo: 'https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+      title: 'netflix-clone',
+      github: 'https://github.com/Carry-Potter/netflix-clone',
+      live:'https://carry-potter.github.io/netflix-clone'
     }, {
       id: 4,
-      image: IMG5,
-      title: 'AI',
-      github: 'https://gitlab.com/mrrobot331/hackaton2021',
-      demo: 'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
+      image: IMG4,
+      title: 'vega time-sheet',
+      github: 'https://gitlab.com/mrrobot331/vega-it',
+      
     },
     {
       id: 5,
-      image: IMG4,
+      image: IMG5,
       title: 'android aplication',
       github: 'https://gitlab.com/mrrobot331/projekatandroid',
-      demo: 'https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+      
     }, {
       id: 6,
       image: IMG6,
       title: 'Cregaatine wordpress',
       github: 'https://rs.cregaatine.com/',
-      demo: 'https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+      
     }
   ]
   return (
@@ -56,7 +56,7 @@ const Portfolio = () => {
       <h2 className='about__text'>Portfolio</h2>
       <div className="container portfolio_container">
         {
-          data.map(({ id, image, title, github, demo }) => {
+          data.map(({ id, image, title, github, live }) => {
             return (
               <article key={id} className='portfolio_item'>
                 <div className="portfolio_item-image">
@@ -65,7 +65,7 @@ const Portfolio = () => {
                 <h3>{title}</h3>
                 <div className="portfolio_item-cta">
                   <a href={github} className='btn' target='_blank'> Github </a>
-                  
+                  <a href={live} className='btn btn-primary' target='_blank'> live </a>
                 </div>
               </article>
             )
