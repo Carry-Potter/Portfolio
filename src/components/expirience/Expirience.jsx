@@ -1,6 +1,8 @@
 import React from 'react'
 import './expirience.css'
 import { AiFillCheckCircle } from "@react-icons/all-files/ai/AiFillCheckCircle";
+import Lottie  from 'lottie-react'
+import animationData from '../../assets/2.json'
 const Expirience = () => {
   
   return (
@@ -10,8 +12,11 @@ const Expirience = () => {
 
     
     <section id='experience'>
-      
       <h2 className='about__text'>Moje iskustvo</h2>
+      <div className="lottie-container">
+        <Lottie animationData={animationData} width={300} height={300} />
+      </div>
+
       <div className="container experience__container">
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
@@ -71,7 +76,7 @@ const Expirience = () => {
         </div>
 
 
-
+        
 
 
         <div className="experience__backend">

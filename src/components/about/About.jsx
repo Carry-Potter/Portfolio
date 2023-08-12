@@ -2,12 +2,13 @@ import React ,{useState}from 'react'
 import './about.css'
 import ME from '../../assets/rrr1.png'
 
+import Lottie from "lottie-react";
 
-import { FaAward } from "@react-icons/all-files/fa/FaAward";
 import { FaUsers } from "@react-icons/all-files/fa/FaUsers";
 import { AiOutlineSecurityScan } from "@react-icons/all-files/ai/AiOutlineSecurityScan";
-
-
+import animationData from "../../assets/praksa.json";
+import animationData1 from "../../assets/obrazovanje.json";
+import animationData2 from "../../assets/nagrada.json";
 const About = () => {
   const [show,setShow]=useState(false)
   
@@ -28,7 +29,7 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className=' about__icon' />
+            <Lottie className='about__icon animate' animationData={animationData2}  />
               <h5>Priznanja</h5>
               <small>2. mesto singidunum hakaton
                 2021 na temu Veštačka
@@ -36,7 +37,7 @@ const About = () => {
               </small>
             </article>
             <article className="about__card">
-              <FaUsers className='about__icon' />
+            <Lottie className='about__icon animate' animationData={animationData1}  />
               <h5>Obrazovanje</h5>
               <small>Univerzitet Singidunum,
                 Novi Sad | Oct 2018 - trenutno
@@ -45,7 +46,7 @@ const About = () => {
               </small>
             </article>
             <article className='about__card'>
-              <AiOutlineSecurityScan className='about__icon' />
+            <Lottie className='about__icon animate' animationData={animationData}  />
               <h5>prakse</h5>
               <small>vega it - 2021  ( full stack ) <br />
                 marble it - 2019 ( frontend Vue.js)<br />

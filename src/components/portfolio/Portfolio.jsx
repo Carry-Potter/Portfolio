@@ -8,6 +8,7 @@ import IMG4 from '../../assets/vega.png'
 import IMG5 from '../../assets/project3.jpg'
 import IMG6 from '../../assets/cregaatine.png'
 
+
 const Portfolio = () => {
   // DO NOT USE THE IMAGES IN PRODUCTION
   const data = [
@@ -52,7 +53,7 @@ const Portfolio = () => {
   ]
   return (
     <section id='portfolio'>
-      <h5>Moji radovi</h5>
+      
       <h2 className='about__text'>Portfolio</h2>
       <div className="container portfolio_container">
         {

@@ -30,8 +30,8 @@ const Contact = () => {
           <article className="contact__option">
             <AiOutlineMail />
             <h4>Email</h4>
-            <h5> ivan.jelic.18@singimail.com</h5>
-            <a href="mailto: ivan.jelic.18@singimail.com" target="_blank"> Send a message </a>
+            <h5> ivan126ns@gmail.com</h5>
+            <a href="mailto: ivan126ns@gmail.com" target="_blank"> Send a message </a>
           </article>
           <article className="contact__option">
             <AiOutlineFacebook />

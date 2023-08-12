@@ -2,6 +2,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    
+}
+.about__text{
+    margin-bottom: 5.5rem;
 }
 
 .experience__container>div {
@@ -40,6 +44,20 @@
     color: var(--color-primary);
 }
 
+.lottie-container {
+    position: relative; 
+    
+  }
+  
+  .lottie-container > div {
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 300px;
+    height: 300px;
+    
+  }
 
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES)
@@ -47,6 +65,7 @@
 @media screen and (max-width: 1024px) {
     .experience__container {
         grid-template-columns: 1fr;
+        padding-top: 7rem;
     }
 
     .experience__container>div {

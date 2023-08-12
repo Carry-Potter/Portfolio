@@ -1,7 +1,7 @@
 header {
-    
-    padding-top: 7rem;
     overflow: hidden;
+    position: relative; 
+    height: 100%;
 }
 
 .mains {
@@ -14,6 +14,34 @@ header {
     margin-top: 5%;
     margin-left: -159px;
 }
+.bg-1{
+    z-index: -1;
+    position: absolute;
+    background-size: cover;
+    min-height: 60vh;
+    
+}
+  /* Add styles for the right side (text and buttons) */
+  .maring__top {
+  flex: 1;
+  max-width: 50%;
+  text-align: center;
+  /* Add padding and margin to create some space between the animation and text */
+  padding: 0 20px;
+  margin: 20px 0;
+}
+
+/* Make the text larger */
+.title_first {
+  color: #d1e0ff;
+  font-weight: bold;
+  font-family: system-ui;
+  font-size: 6em; /* Adjust this value as needed */
+  letter-spacing: 3px;
+  height: 124px; /* Adjust this value as needed */
+  text-shadow: 5px 2px #71a3ff;
+}
+
 
 
 .sectionss {
@@ -21,7 +49,7 @@ header {
     display: flex;
     /*  justify-content: space-between; */
     margin: 2rem auto 2rem;
-  width: 40%;
+  width: 80%;
  
   padding: 10px;
     
@@ -123,81 +151,7 @@ header {
     font-size: 0.9rem;
 }
 
-/* ================ MEDIA QUERIES (MEDIUM
-DEVICES) ================= */
-@media screen and (max-width: 1360px) {
-    .title_first {
-        
-        font-size: 3em;
-        width: 356px;
 
-       
-    }
-    
-    .title_second {
-        
-        font-size: 3em;
-    }
-}
-@media screen and (max-width: 800px) {
-    header {
-        height: 100vh;
-    }
-    .sectionss{
-        width: 60%;
-    }
-    .header_socials,
-    .scroll__down {
-        display: none;
-    }
-    .title_first {
-        
-        font-size: 3em;
-       
-    }
-    
-    .title_second {
-        
-        font-size: 3em;
-    }
-  
-       
-
-}
-
-/* ===== ==== MEDIA QUERIES (SMALL
-    DEVICES) ======*/
-@media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
-    }
-    
-.mains {
-    height: 300px;
-}
-.cta{
-    margin-top: 4.5rem;
-    margin-left: -100px;
-}
-
-    .header_socials,
-    .scroll__down {
-        display: none;
-    }
-    .title_first {
-        
-        font-size: 2em;
-        width: 350px;
-       
-    }
-    
-    .title_second {
-        
-        font-size: 2em;
-    }
-    .sectionss {
-    width: 80%;
-}
 .btn {
     width: max-content;
     display: inline-block;
@@ -209,7 +163,7 @@ DEVICES) ================= */
     transition: var(--transition);
 }
 
-}
+
 
 body {
     background: #1d2d47;
@@ -328,3 +282,85 @@ body {
     position: relative;
     left: 0;
 }
+
+
+/* Rest of your existing styles */
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .left-section,
+  .right-section {
+    flex: 1;
+    max-width: 100%;
+    text-align: center;
+    padding: 0 20px;
+    margin: 20px 0;
+  }
+  
+  .animate-container {
+    flex: 1;
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 20px 0;
+    height: 100%;
+  }
+  
+  /* Make the animation larger */
+  .animate {
+    width: 100%;
+    max-width: 800px; /* Adjust this value as needed */
+    margin: 0 auto; /* Center the animation horizontally */
+  }
+  
+  @media screen and (max-width: 800px) {
+    .header__container {
+      justify-content: center;
+      flex-direction: column; /* Stack sections on top of each other */
+    }
+  
+    .left-section,
+    .right-section {
+      flex: 1;
+      max-width: 100%;
+      text-align: center;
+      padding: 0 20px;
+      margin: 20px 0;
+    }
+  
+    .animate-container {
+      flex: 1;
+      max-width: 100%;
+      padding: 0 20px;
+      margin: 20px 0;
+      height: 100%;
+    }
+  
+    .animate {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  
+    .cta .btn {
+      padding: 0.15rem 0.5rem;
+      font-size: 0.7em;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .title_second{
+        font-size: 2em;
+        letter-spacing: 1.1px;
+        height: 44px;
+        text-shadow: 1px 2px #71a3ff;
+    }
+    .cta .btn {
+      padding: 0.15rem 0.5rem;
+      font-size: 0.7em;
+    }
+  }
+  
