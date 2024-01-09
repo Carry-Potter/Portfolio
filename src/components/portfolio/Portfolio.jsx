@@ -2,6 +2,10 @@ import React from 'react'
 import './portfolio.css'
 
 import IMG1 from '../../assets/Screenshot_6.png'
+import IMG7 from '../../assets/Screenshot_61.png'
+import IMG8 from '../../assets/Screenshot_7.png'
+import IMG9 from '../../assets/Screenshot_8.png'
+import IMG10 from '../../assets/Screenshot_51.png'
 import IMG2 from '../../assets/Screenshot_5.png'
 import IMG3 from '../../assets/Screenshot_4.png'
 import IMG4 from '../../assets/vega.png'
@@ -36,20 +40,48 @@ const Portfolio = () => {
       title: 'vega time-sheet',
       github: 'https://gitlab.com/mrrobot331/vega-it',
       
-    },
-    {
-      id: 5,
-      image: IMG5,
-      title: 'android aplication',
-      github: 'https://gitlab.com/mrrobot331/projekatandroid',
       
-    }, {
+    },
+   
+    {
       id: 6,
-      image: IMG6,
-      title: 'Cregaatine wordpress',
-      github: 'https://rs.cregaatine.com/',
+      image: IMG9,
+      title: 'E-Commerce',
+      github: 'https://github.com/Carry-Potter/e-shop-frontend',
+      
       
     }
+    ,
+    {
+      id: 7,
+      image: IMG7,
+      title: 'Apple store',
+      github: 'https://github.com/Carry-Potter/apple',
+      live:'https://apple-wb.netlify.app/'
+      
+    }
+    ,
+    {
+      id: 8,
+      image: IMG8,
+      title: 'Crypto',
+      github: 'https://github.com/Carry-Potter/Crypto',
+      
+    }
+    ,
+    {
+      id: 9,
+      image: IMG10,
+      title: 'Search app',
+      github: 'https://github.com/Carry-Potter/EmojiSearch',
+      live:'https://emojisearch-task.netlify.app/'
+    }, {
+      id: 10,
+      image: IMG6,
+      title: 'Cregaatine wordpress',
+      live: 'https://rs.cregaatine.com/',
+      
+    } 
   ]
   return (
     <section id='portfolio'>
@@ -61,20 +93,24 @@ const Portfolio = () => {
             return (
               <article key={id} className='portfolio_item'>
                 <div className="portfolio_item-image">
-                  <img src={image} alt={title} />
+                  <img className="portfolio_image" src={image} alt={title} />
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio_item-cta">
-                  <a href={github} className='btn' target='_blank'> Github </a>
-                  <a href={live} className='btn btn-primary' target='_blank'> live </a>
+                  <a href={github} className='btn' target='_blank' rel='noopener noreferrer'>
+                    Github
+                  </a>
+                  {live && (
+                    <a href={live} className='btn btn-primary' target='_blank' rel='noopener noreferrer'>
+                      Live
+                    </a>
+                  )}
                 </div>
               </article>
             )
           })
         }
       </div>
-
-
     </section>
   )
 }

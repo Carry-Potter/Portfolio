@@ -67,14 +67,17 @@ header {
     width: 600px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 .title_second {
     color: #D1E0FF;
     font-weight: bold;
-    font-family: cursive;
+    font-family: 'Anton', sans-serif;
+    
     font-size: 4em;
     letter-spacing: 3px;
-    height: 117px;
-    text-shadow: 5px 2px #71a3ff;
+    height: 100px;
+    text-shadow: 3px 2px #71a3ff;
 }
 
 .bg {

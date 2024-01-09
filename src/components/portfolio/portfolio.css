@@ -21,7 +21,12 @@
     border-radius: 1.5rem;
     overflow: hidden;
 }
-
+.portfolio_item-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 1.5rem;
+    overflow: hidden;
+  }
 .portfolio_item h3 {    
     margin: 1.2rem 0 2rem;
 }
@@ -48,5 +53,6 @@
             grid-template-columns: 1fr;
             gap: 1rem;
         }
+        
     }
     
